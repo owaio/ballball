@@ -66,6 +66,7 @@ Organize all collected data into these categories:
 - Analyze line movement: if "早" → "即" changed (up/down), record the trend
 - Rule: the team with lower European odds corresponds to the handicap-giving side (upper plate)
 - Upper plate odds are on the handicap-giving team's side
+- If the giving team is away team, then the Asian Handicap(受讓) has a "-" symbol
 
 ### 6. Over/Under
 - Complete over/under data ("即" and "早" rows)
@@ -91,6 +92,7 @@ Use machine learning baseline model to analyze whether the handicap is reasonabl
 - Record early odds ("早" = opening line) and instant odds ("即" = current line)
 - Analyze changes: "早" → "即" direction (upgraded/downgraded/no change)
 - **Example**: If early line was 平手(0) and instant line is 半球/一球(-0.75), record as "升盘"
+- If the giving team is away team, then the Asian Handicap(受讓) has a "-" symbol
 - Determine the true purpose behind odds movements:
   - Upgraded line (升盘): typically indicates stronger team being favored
   - Downgraded line (降盘): typically indicates weaker team being favored
