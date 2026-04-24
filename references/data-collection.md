@@ -23,7 +23,7 @@ Accept either format from user:
 ### 1. Asian Handicap (让球盘)
 - Extract only rows labeled "即" (instant/live) and "早" (early/opening)
 - Fields: home odds, handicap line, away odds
-- Note which team is giving the handicap (if the giving team is away team, then the Asian Handicap has a "-" symbol)
+- Note which team is giving the handicap (If the giving team is away team, then the Asian Handicap(受讓) has a "-" symbol)
 - Record all available bookmaker data
 
 ### 2. Over/Under (大小球盘)
