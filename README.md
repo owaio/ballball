@@ -8,7 +8,7 @@ AI-powered football match prediction & betting analysis system for [OpenClaw](ht
 
 ## Features
 
-- **Automated Data Collection** — Scrapes pre-match data from titan007.com: Asian handicap, over/under, European odds, team fundamentals, lineups, corner kicks, half-time goals
+- **Automated Data Collection** — Scrapes pre-match data from m.nowscore.com: Asian handicap, over/under, European odds, team fundamentals, lineups, corner kicks, half-time goals
 - **5-Step Quantitative Analysis**
   1. Data organization & validation
   2. Fundamental analysis (handicap rationality, line movement, bookmaker intent)
@@ -26,7 +26,7 @@ AI-powered football match prediction & betting analysis system for [OpenClaw](ht
 npx clawhub install soccer-predict
 
 # Or from GitHub
-git clone https://github.com/owaio/soccer-predict.git ~/.hermes/skills/soccer-predict
+git clone https://github.com/owaio/ballball.git ~/.hermes/skills/ballball
 ```
 
 ## Quick Start
@@ -140,7 +140,7 @@ npx clawhub install soccer-predict
 
 ### 核心能力
 
-- 自动从 titan007.com 抓取亚盘、大小球、欧赔、基本面、阵容等数据
+- 自动从 m.nowscore.com 抓取亚盘、大小球、欧赔、基本面、阵容等数据
 - 五步量化分析：数据整理 → 基本面 → 概率计算 → 回归模型 → EV 推荐
 - 赛后自动复盘，迭代优化权重
 - 目标：亚盘 + 大小球双维度 70%+ 准确率
